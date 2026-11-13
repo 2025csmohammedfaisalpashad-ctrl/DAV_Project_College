@@ -1,19 +1,16 @@
-# DAV Project College
+# Data Analytics and Visualization (DAV)
 
-### Data Analytics and Visualization (DAV)
-**3rd Semester – Computer Science and Engineering**
-
-**Student:** Mohammed Faisal Pasha
+**3rd Semester – Computer Science and Engineering**  
+**Student:** Mohammed Faisal Pasha  
+**Institution:** The National Institute of Engineering (NIE), Mysuru
 
 ---
 
 ## About This Repository
 
-This repository contains Data Analytics and Visualization (DAV) laboratory programs, practical implementations, assignments, and exercises developed using Python and Jupyter Notebook.
+This repository contains laboratory programs, practical exercises, assignments, and additional practice work for the **Data Analytics and Visualization (DAV)** course. The notebooks use Python and popular data-analysis libraries to explore datasets, prepare data, visualize patterns, and implement machine-learning techniques.
 
-The programs cover data manipulation, exploratory data analysis, data preprocessing, statistical techniques, data visualization, and machine learning algorithms.
-
-## Technologies Used
+## Technologies and Libraries
 
 - Python 3
 - Jupyter Notebook
@@ -21,78 +18,94 @@ The programs cover data manipulation, exploratory data analysis, data preprocess
 - Pandas
 - Matplotlib
 - Seaborn
-- Scikit-learn
 - SciPy
+- Scikit-learn
 
 ## Laboratory Programs
 
-| Program | Description |
-|---|---|
-| Program 1 | Introduction to Python for Data Analytics using NumPy and Pandas |
-| Program 2 | Exploratory Data Analysis (EDA) |
-| Program 3 | Data Analytics and Statistical Operations |
-| Program 4 | Data Preprocessing and Handling Missing Values |
-| Program 5 | Outlier Detection using IQR and Z-Score |
-| Program 6 | Feature Engineering, Normalization, Standardization and PCA |
-| Program 7 | Linear Regression |
-| Program 8 | Logistic Regression for Binary Classification |
-| Program 9 | Decision Tree Classification |
-| Program 10 | K-Means Clustering and Elbow Method |
-| Program 11 | Hierarchical Clustering and Dendrogram Visualization |
+The main laboratory sequence is organized numerically from **01 to 11**:
+
+| No. | Notebook | Topic |
+|---:|---|---|
+| 01 | `01_Introduction to Python for Data Analytics.ipynb` | Python basics for data analytics using NumPy and Pandas |
+| 02 | `02_Exploratory Data Analysis and Data Wrangling.ipynb` | Exploratory data analysis and data wrangling |
+| 03 | `03_Data Visualization using Matplotlib and Seaborn.ipynb` | Data visualization using Matplotlib and Seaborn |
+| 04 | `04_Data Preprocessing.ipynb` | Data preprocessing and handling missing values |
+| 05 | `05_Outlier Detection and Treatment.ipynb` | Outlier detection and treatment using the IQR method |
+| 06 | `06_Feature Engineering.ipynb` | Feature engineering and feature transformation |
+| 07 | `07_Simple and Multiple Linear Regression.ipynb` | Simple and multiple linear regression |
+| 08 | `08_Logistic Regression for Binary Classification.ipynb` | Logistic regression for binary classification |
+| 09 | `09_Tree-based Classification using Decision Tree.ipynb` | Decision-tree-based classification |
+| 10 | `10_K-Means Clustering.ipynb` | K-Means clustering and cluster analysis |
+| 11 | `11_Hierarchical Clustering.ipynb` | Hierarchical clustering and dendrogram visualization |
+
+### Additional Versions and Practice Notebooks
+
+The repository also contains supplementary notebooks that are not part of the main 01–11 sequence:
+
+- `04_Data Preprocessing(1).ipynb` – An additional implementation of data-preprocessing operations.
+- `05_Outlier Detection and Treatment(1).ipynb` – An additional outlier-detection implementation using Z-scores.
+- `Home_Work.ipynb` – Homework and practice exercises.
+- `IMPORTANT_but_not_LAB.ipynb` – Important supplementary material outside the regular lab sequence.
+- `Real_DATASET.ipynb` – Practice and analysis using a real dataset.
+- `Untitled.ipynb` – An additional notebook that can be renamed after its contents are identified.
 
 ## Datasets
 
-The repository includes the following datasets:
+The following CSV datasets are included in the repository:
 
-- `students.csv` – Student-related dataset.
-- `indian_stock_market.csv` – Indian stock market dataset.
+- `students.csv` – Student-related sample data used for practice and demonstrations.
+- `indian_stock_market.csv` – Indian stock-market data for dataset-based analysis.
 
-Additional sample datasets are created directly within individual Jupyter notebooks.
+Some notebooks also create sample datasets directly in their code cells.
 
 ## Repository Structure
 
 ```text
 DAV_Project_College/
 │
-├── 1st_LAB_Program.ipynb
-├── 2nd_LAB_Program.ipynb
-├── DAV LAB PROGRAM-4.ipynb
-├── DAV_Lab6_Feature_Engineering.ipynb
-├── LAB_Program_8.ipynb
-├── LAB_Program_9.ipynb
-├── Program_7_DAV.ipynb
-├── Program_Program_10.ipynb
-├── Program_Program_11.ipynb
-├── Program_5_IQR.ipynb
-├── Program_5_Z-Score.ipynb
+├── 01_Introduction to Python for Data Analytics.ipynb
+├── 02_Exploratory Data Analysis and Data Wrangling.ipynb
+├── 03_Data Visualization using Matplotlib and Seaborn.ipynb
+├── 04_Data Preprocessing.ipynb
+├── 04_Data Preprocessing(1).ipynb
+├── 05_Outlier Detection and Treatment.ipynb
+├── 05_Outlier Detection and Treatment(1).ipynb
+├── 06_Feature Engineering.ipynb
+├── 07_Simple and Multiple Linear Regression.ipynb
+├── 08_Logistic Regression for Binary Classification.ipynb
+├── 09_Tree-based Classification using Decision Tree.ipynb
+├── 10_K-Means Clustering.ipynb
+├── 11_Hierarchical Clustering.ipynb
+│
+├── Home_Work.ipynb
+├── IMPORTANT_but_not_LAB.ipynb
 ├── Real_DATASET.ipynb
+├── Untitled.ipynb
 │
 ├── students.csv
 ├── indian_stock_market.csv
-│
 └── README.md
 ```
 
-*Note: The repository also contains additional practice notebooks, assignments and updated versions of programs.*
-
 ## Installation and Execution
 
-### 1. Clone the Repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/2025csmohammedfaisalpashad-ctrl/DAV_Project_College.git
 ```
 
-### 2. Navigate to the Project Directory
+### 2. Open the project directory
 
 ```bash
 cd DAV_Project_College
 ```
 
-### 3. Install Required Libraries
+### 3. Install the required libraries
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn scipy jupyter
+python3 -m pip install numpy pandas matplotlib seaborn scipy scikit-learn jupyter
 ```
 
 ### 4. Launch Jupyter Notebook
@@ -101,27 +114,24 @@ pip install numpy pandas matplotlib seaborn scikit-learn scipy jupyter
 jupyter notebook
 ```
 
-Open the required `.ipynb` file and execute the cells sequentially.
+Open the notebook you want to run and execute its cells in order. Some notebooks may require the included CSV files to remain in the same project directory.
 
 ## Learning Objectives
 
-- Understand Python libraries used in data analytics.
-- Perform data manipulation and exploratory data analysis.
-- Identify and handle missing values and duplicate records.
-- Apply data preprocessing and feature engineering techniques.
-- Understand statistical analysis and data visualization.
-- Implement supervised machine learning algorithms.
-- Apply clustering techniques and visualize their results.
-- Evaluate machine learning models using appropriate performance metrics.
+- Use Python libraries for data analysis and manipulation.
+- Perform exploratory data analysis and data wrangling.
+- Visualize datasets using Matplotlib and Seaborn.
+- Preprocess data and handle missing values.
+- Detect and treat outliers using statistical methods.
+- Apply feature-engineering and transformation techniques.
+- Build regression and classification models.
+- Understand and implement K-Means and hierarchical clustering.
 
 ## Author
 
-**Mohammed Faisal Pasha**
-
-Computer Science and Engineering  
-3rd Semester
-
-**The National Institute of Engineering (NIE)**  
+**Mohammed Faisal Pasha**  
+Computer Science and Engineering, 3rd Semester  
+The National Institute of Engineering (NIE)  
 Mysuru, Karnataka, India
 
 ---
